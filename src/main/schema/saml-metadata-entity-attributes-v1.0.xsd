@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema targetNamespace="urn:oasis:names:tc:SAML:metadata:attribute" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" elementFormDefault="unqualified" attributeFormDefault="unqualified" blockDefault="substitution" version="2.0">
+<schema targetNamespace="urn:oasis:names:tc:SAML:metadata:attribute" 
+        xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"
+        xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute"
+        elementFormDefault="unqualified" attributeFormDefault="unqualified" blockDefault="substitution" 
+        version="2.0">
 
   <annotation>
     <documentation>
@@ -12,7 +17,7 @@
     </documentation>
   </annotation>
 
-  <import namespace="urn:oasis:names:tc:SAML:2.0:assertion" schemaLocation="saml-schema-assertion-2.0.xsd"/>
+  <import namespace="urn:oasis:names:tc:SAML:2.0:assertion"/>
 
   <element name="EntityAttributes" type="mdattr:EntityAttributesType"/>
   <complexType name="EntityAttributesType">
